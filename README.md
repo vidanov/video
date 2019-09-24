@@ -12,11 +12,12 @@ Collection of links, resources and manuals for anybody in the video production
 
 - **Resolutions/Bitrates/Codecs/FPS tests (TBD)**
   colorbars files with the frame numbers and time in milliseconds
-  - [**1920x1080P/50FPS**](raw/master/test_files/1080p50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/50FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 50FPS, YUV : 4:2:0, Progressive, 10 MByte*
-  - [**1920x1080P/25FPS**](raw/master/test_files/1080p25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 25FPS, YUV : 4:2:0, Progressive, 7 MByte*
-  -  [**1920x1080i/25FPS**](raw/master/test_files/1080i25.mp4) 60 seconds  full hd mp4 mandelbrot with a timecode and a number of frames
+  - [ **1920x1080i/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080i25.mp4) 60 seconds full hd mp4 mandelbrot with a timecode and a number of frames
+    *31 MB*
 - **Filename test** Special characters and long file names
   *each file: 10s, 1920 pixels x 1080 pixels, size is less than 400 KByte*
     - [__  ä ö ü ß â é è Ä Ö Ü ß -.mp4](https://github.com/vidanov/video/raw/master/test_files/characters/%3D%20%3F%20%60%20´%20%2B%20*%20±%20%20%23%20'%20%3B%20%2C%20%20-%20_%20:%20«%20æ%20%40%20.mp4)
