@@ -12,7 +12,12 @@ Color bars 2
 $ ffmpeg -f lavfi -i smptebars=duration=10:size=1280x720:rate=25 smptebars.mp4
 ```
 
+## Add text
 
+
+```bash
+$ ffmpeg -i video.mp4 -vf "drawtext=fontfile=/System/Library/Fonts/Menlo.ttc:text='Hello': x=100: y=500: fontsize=84: fontcolor=yellow@0.8: box=1: boxcolor=blue@0.9" -c:a copy -c:v libx264 -preset veryfast -crf 16 -x264-params keyint=60 -map 0  output.mp4
+```
 
 ## Add timecodes
 
