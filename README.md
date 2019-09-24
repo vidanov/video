@@ -42,7 +42,7 @@ Collection of links, resources and manuals for anybody in the video production
 
 ## Video Links
 
-- [My collection](Video_Links.md)
+- [Curated list of videolinks](Video_Links.md)
 - [FFMPEG shortcuts](ffmpeg.md)
 
 
