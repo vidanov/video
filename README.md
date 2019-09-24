@@ -1,10 +1,17 @@
-# Video Usefull Resources
+# Awesome Video 
+
+Collection of links, resources and manuals for anybody in the video production
+
+|![screenshot](test_files/video.gif)|
+| -------------        |
+| [Test files created with ffmpeg](ffmpeg.md) |
+
+
 
 ## Test files
 
-
-
 - **Resolutions/Bitrates/Codecs/FPS tests (TBD)**
+  colorbars files with the frame numbers and time in milliseconds
   - [**1920x1080/50FPS**](raw/master/test_files/50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 50FPS, YUV : 4:2:0, Progressive, 10 MByte*
   - [**1920x1080/25FPS**](raw/master/test_files/25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
@@ -22,6 +29,7 @@
   - 2GB
   - 4GB
   - 6GB
+- **Stitching test. Number of files** 
 
 
 ## Video Links
