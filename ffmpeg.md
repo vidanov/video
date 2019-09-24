@@ -28,7 +28,7 @@ $ ffmpeg -i   testsrc.mpg -filter_complex "drawtext=fontfile=/System/Library/Fon
 ## Empty video
 
 ```bash
-$ ffmpeg -t 7200 -s 1920x1080 -f rawvideo -pix_fmt rgb24 -r 25 -i /dev/zero empty.mpeg
+$ ffmpeg -t 60 -s 1920x1080 -f rawvideo -pix_fmt rgb24 -r 25 -i /dev/zero empty.mpeg
 
 ```
 
