@@ -1,5 +1,7 @@
 ## FFMPEG shortcuts
 
+![ffmpeg](test_files/ffmpeg.png)
+
 ## Create a test file 
 
 
@@ -7,10 +9,25 @@ Color bars 1
 ```bash
 $ ffmpeg -f lavfi -i testsrc=duration=60:size=1920x1080:rate=50 testsrc.mpg
 ```
+
+
 Color bars 2
+
 ```bash
 $ ffmpeg -f lavfi -i smptebars=duration=10:size=1280x720:rate=25 smptebars.mp4
 ```
+
+
+
+Interlaced mandelbrot
+
+```bash
+ffmpeg -hide_banner -t 10 -y -f lavfi -i anullsrc=r=48k:cl=stereo -f lavfi -i mandelbrot=r=50:size=1920x1080 -vf 'interlace=scan=tff:lowpass=complex,format=yuv420p' -flags +ildct -codec:a aac -b:a 128k -aac_coder twoloop -codec:v libx264 -preset veryfast -tune animation -profile:v high -crf 35 -level 5.2 -shortest mandelbrot.mp4
+```
+
+source: https://superuser.com/questions/1344442/ffmpeg-how-to-create-an-interlaced-h-264-video
+
+
 
 ## Add text
 

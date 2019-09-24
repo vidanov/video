@@ -12,9 +12,9 @@ Collection of links, resources and manuals for anybody in the video production
 
 - **Resolutions/Bitrates/Codecs/FPS tests (TBD)**
   colorbars files with the frame numbers and time in milliseconds
-  - [**1920x1080/50FPS**](raw/master/test_files/50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/50FPS**](raw/master/test_files/50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 50FPS, YUV : 4:2:0, Progressive, 10 MByte*
-  - [**1920x1080/25FPS**](raw/master/test_files/25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/25FPS**](raw/master/test_files/25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 25FPS, YUV : 4:2:0, Progressive, 7 MByte*
 - **Filename test** Special characters and long file names
   *each file: 10s, 1920 pixels x 1080 pixels, size is less than 400 KByte*
@@ -37,7 +37,7 @@ Collection of links, resources and manuals for anybody in the video production
   - 40
   - 50
 - **Corrupted file test**
-  - [corrupted.mp4](https://github.com/vidanov/video/raw/master/test_files/corrupted.mp4) 10MB non video file
+  - [corrupted.mp4](https://github.com/vidanov/video/raw/master/test_files/corrupted.mp4) 10MB non video empty file
 
 
 ## Video Links
