@@ -30,6 +30,14 @@ Collection of links, resources and manuals for anybody in the video production
   - 4GB
   - 6GB
 - **Stitching test. Number of files** 
+  - 2
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+- **Corrupted file test**
+  - [corrupted.mp4](https://github.com/vidanov/video/raw/master/test_files/corrupted.mp4) 10MB non video file
 
 
 ## Video Links
