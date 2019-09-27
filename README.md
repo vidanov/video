@@ -12,9 +12,13 @@ Collection of links, resources and manuals for anybody in the video production
 
 - **Resolutions/Bitrates/Codecs/FPS tests (TBD)**
   colorbars files with the frame numbers and time in milliseconds
-  - [**1920x1080P/50FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p50.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/50FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p50.mp4) NO AUDIO, 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 50FPS, YUV : 4:2:0, Progressive, 10 MByte*
-  - [**1920x1080P/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p25.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+  - [**1920x1080P/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p25.mp4) NO AUDIO, 60 seconds full hd mp4 color bars with a timecode and a number of frames
+    *60s, 1920 pixels x 1080 pixels, 25FPS, YUV : 4:2:0, Progressive, 7 MByte*
+  - [**1920x1080P/50FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p50audio.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
+    *60s, 1920 pixels x 1080 pixels, 50FPS, YUV : 4:2:0, Progressive, 10 MByte*
+  - [**1920x1080P/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080p25audio.mp4) 60 seconds full hd mp4 color bars with a timecode and a number of frames
     *60s, 1920 pixels x 1080 pixels, 25FPS, YUV : 4:2:0, Progressive, 7 MByte*
   - [ **1920x1080i/25FPS**](https://github.com/vidanov/video/raw/master/test_files/1080i25.mp4) 60 seconds full hd mp4 mandelbrot with a timecode and a number of frames
     *31 MB*
